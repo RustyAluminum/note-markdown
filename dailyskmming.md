@@ -59,3 +59,14 @@
 ##### problem:
 
 ##### my question:
+
+
+##2103.06900<br>Particle acceleration in radio galaxies with flickering jets: GeV electrons to ultrahigh energy cosmic rays
+### home message
+##### work:
+
+##### conclusion:
+
+##### problem:
+
+##### my question:
