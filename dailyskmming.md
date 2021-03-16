@@ -8,17 +8,16 @@
 
 ##### problem:
 
-##### my question:
 -->
 
 
 ## 2102.06719<br>Double detonations of sub-MCh CO white dwarfs:Can different core and He shell masses explain variations of Type Ia supernovae?  
 ### home message
 ##### work:  
-1. three-dimensional simulations of double detonations in carbon-oxygen white dwarfs with a helium shell<br>
+* three-dimensional simulations of double detonations in carbon-oxygen white dwarfs with a helium shell<br>
 模型参数：different core and shell masses.<br>
-2. 展示从上述模拟中预测得的the bolometric light curves用 Monte Carlo radiative transfer code ARTIS得到）, 并与观测得的SNe Ia数据比较.<br>
-3. We show the model bolometric width-luminosity relation compared to data for a range of model viewing angles.<br>
+* 展示从上述模拟中预测得的the bolometric light curves用 Monte Carlo radiative transfer code ARTIS得到）, 并与观测得的SNe Ia数据比较.<br>
+* We show the model bolometric width-luminosity relation compared to data for a range of model viewing angles.<br>
 
 ##### conclusion:  
 1. different core detonation ignition mechanisms depending on the core and shell mass configuration. This has an influence on the ejecta structure.<br>
@@ -34,9 +33,9 @@
 ##2101.04722<br>Atomic line radiative transfer with MCFOST I. Code description and benchmarking
 ### home message
 ##### work:
-1. We present MCFOST-art, a new non-local thermodynamic equilibrium radiative transfer solver for multilevel atomic systems.<br>
-2. using the Multilevel Accelerated Lambda Iteration (MALI) method.<br>tested MCFOST-art on spherically symmetric models of stellar photospheres as well as on a standard model of the solar atmosphere.<br>
-3. tested both the pure local thermodynamic equilibrium and the out-of-equilibrium problems.<br>
+* We present MCFOST-art, a new non-local thermodynamic equilibrium radiative transfer solver for multilevel atomic systems.<br>
+* using the Multilevel Accelerated Lambda Iteration (MALI) method.<br>tested MCFOST-art on spherically symmetric models of stellar photospheres as well as on a standard model of the solar atmosphere.<br>
+* tested both the pure local thermodynamic equilibrium and the out-of-equilibrium problems.<br>
 
 ##### conclusion:
 1. In all cases, the results from all codes agree within a few percent at all wavelengths and reach the sub-percent level between RH and MCFOST-art.<br>
@@ -46,7 +45,6 @@
 
 ##### problem:
 
-### my question:
 
 
 
@@ -58,15 +56,44 @@
 
 ##### problem:
 
-##### my question:
 
 
 ##2103.06900<br>Particle acceleration in radio galaxies with flickering jets: GeV electrons to ultrahigh energy cosmic rays
 ### home message
 ##### work:
+* introduce a semi-analytic model for particle acceleration and radio jet/lobe evolution and explore the effect of Myr timescale **jet variability** on the particles accelerated by an AGN jet.<br>
+* resulting spectrum: log-normal distribuion of powers.<br>
+* demonstrate the link between the history of an astrophysical particle accelerator and its particle contents, nonthermal emission and UHECR spectrum<br>
+
 
 ##### conclusion:
+1. UHECR and nonthermal radiative luminosities track the jet power but with a response set by the escape and cooling times, respectively.<br>
+2. **jet variability** produces structure in the electron, synchrotron and UHECR spectra that deviates from that produced for a constant jet power – in particular, spectral **hardening features** may be signatures of variability<br>
+3. the cutoff in the integrated CR spectrum is stretched out due to the variation in jet power (and, consequently, maximum CR energy).<br>
+4. $\sim$ 10 GeV 'proxy electrons' that are cooling at the same rate that UHECRs of rigidity 10 EV are escaping from the source, and determine
+the corresponding photon frequencies that probe escaping UHECRs.
 
 ##### problem:
+to find: 1) local powerful *ultrahigh energy cosmic ray*(UHECR) sources; 2)evidence for variability in AGN and radio galaxies.
 
-##### my question:
+
+
+##2103.07495<br>Using Shell Models to Investigate Clumping in the Wind of the O7Iaf+ Supergiant AzV83
+### home message
+##### work:
+* treat a clumpy wind as a series of dense, spherically symmetric shells embedded
+* on a non-void interclump medium in the 1D radiative transfer code CMFGEN.<br>
+model spectra of AzV83
+* shell model 2D code
+
+##### conclusion:
+a factor of ten lower than needed with the volume-filling factor approach<br>
+* model results:<br>
+Its spectra shows evidence of a relatively strong mass loss, similar to a WR
+star, as well as a wealth of photospheric features.<br>
+the Shell model the ionisation does not vary smoothly with radius – the ionisation fraction in the ICM differs from that in the core of the shell by as much as three orders of magnitude.
+
+##### problem:
+* the winds are inhomogeneous (clumped) and are difficult to model in radiative transfer codes,<br>
+* VFF(The volume-filling factor approach is the principal method adopted to treat clumping) is simplistic<br>
+* to treat clumpy winds more realistically and test the validity of the VFF approach
