@@ -1,6 +1,6 @@
 <!--
 #radiative transfer
-##<br>
+## <br>
 ### home message
 ##### work:
 
@@ -30,7 +30,7 @@
 
 
 
-##2101.04722<br>Atomic line radiative transfer with MCFOST I. Code description and benchmarking
+## 2101.04722<br>Atomic line radiative transfer with MCFOST I. Code description and benchmarking
 ### home message
 ##### work:
 * We present MCFOST-art, a new non-local thermodynamic equilibrium radiative transfer solver for multilevel atomic systems.<br>
@@ -58,7 +58,7 @@
 
 
 
-##2103.06900<br>Particle acceleration in radio galaxies with flickering jets: GeV electrons to ultrahigh energy cosmic rays
+## 2103.06900<br>Particle acceleration in radio galaxies with flickering jets: GeV electrons to ultrahigh energy cosmic rays
 ### home message
 ##### work:
 * introduce a semi-analytic model for particle acceleration and radio jet/lobe evolution and explore the effect of Myr timescale **jet variability** on the particles accelerated by an AGN jet.<br>
@@ -78,7 +78,7 @@ to find: 1) local powerful *ultrahigh energy cosmic ray*(UHECR) sources; 2)evide
 
 
 
-##2103.07495<br>Using Shell Models to Investigate Clumping in the Wind of the O7Iaf+ Supergiant AzV83
+## 2103.07495<br>Using Shell Models to Investigate Clumping in the Wind of the O7Iaf+ Supergiant AzV83
 ### home message
 ##### work:
 * treat a clumpy wind as a series of dense, spherically symmetric shells embedded
@@ -97,3 +97,20 @@ the Shell model the ionisation does not vary smoothly with radius – the ionisa
 * the winds are inhomogeneous (clumped) and are difficult to model in radiative transfer codes,<br>
 * VFF(The volume-filling factor approach is the principal method adopted to treat clumping) is simplistic<br>
 * to treat clumpy winds more realistically and test the validity of the VFF approach
+
+
+## *2103.07555*<br>pion: Simulating bow shocks and circumstellar nebulae
+### home message
+##### work:
+* Applications of the code to modelling circumstellar nebulae+与之前的计算作比较: <br>
+3D simulation of a magnetized bow shock, 2D simulation of the formation
+of ring nebulae around rotating and evolving stars, 3D R-HD simulation of the wind-wind interaction from a RSG evolving to a WR star, 3D MHD simulation of a
+wind-wind collision between two rotating stars.<br>
+PION code, includes radiative transfer of ionizing and non-ionizing photons for R-HD and for R-MHD.<br>
+![test](2103.jpg "test")
+
+
+##### conclusion:
+bow shock形成机制的2D与3D模拟结果很不一致<br>
+PION的并行适用于mhd（不考虑辐射转移）
+##### problem:
